@@ -1,0 +1,99 @@
+
+#search{
+	padding: 0;
+	margin: 0 auto;
+	display: block;
+	position: relative;
+}
+
+#search-box{
+	font: 24px sans-serif;
+	width: 100%;
+	margin: 0;
+	padding: 0.3em;
+	padding-left: 45px;
+	outline: none;
+	border: 5px solid #A9A9A9;
+}
+
+#search-box::placeholder {
+	font: 21px sans-serif;
+  }
+
+#search-icon{
+	position: absolute;
+	float: left;
+	width: 30px;
+	height: 30px;
+	top: 14px;
+	left: 10px;
+}
+
+#search-results{
+	display: none;
+}
+
+#result-header{
+	background-color: #A9A9A9;
+	font: 20px sans-serif;
+	color: white;
+	padding: 0.3em;
+	display: flex;
+}
+
+#back-icon{
+	width: 24px;
+	height: 24px;
+	padding-top: 0px;
+	margin-right: 0.5em;
+	margin-top: -3px;
+	margin-left: 3px;
+}
+
+
+#result-area{
+	margin-bottom: 2em;
+}
+
+.result-item{
+	font: 20px sans-serif;
+	width: 100%;
+	padding: 0.5em;
+	border-left-style: solid;
+	border-left-color: #D3D3D3;
+	border-left-width: 12px;
+	border-bottom-style: solid;
+	border-bottom-color: #dcdcdc;
+	border-bottom-width: 2px;
+}
+
+.result-item .item-gomi{
+	font-weight: bold;
+}
+
+.result-item ul{
+	font: 17px sans-serif;
+	list-style-type: none;
+	padding-left: 5px;
+	margin-top: 5px;
+}
+
+.result-item .list-category{
+	background: url("../img/trash.svg") no-repeat 0 3px;
+	padding-left: 23px;
+}
+
+.result-item .list-remark{
+	background: url("../img/sticky.svg") no-repeat 0 3px;
+	padding-left: 23px;
+}
+
+.not-found{
+	border-radius: 5px;
+	background-color: lightgrey;
+	color: darkcyan;
+	text-align: center;
+	margin: 0.7em;
+	padding: 3em;
+	font: 24px bold;
+}
